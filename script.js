@@ -23,7 +23,7 @@ alert("Сумма: " + (x+y) + ". Разность: " + (x-y) + ". Произв�
 
 //task 5
 
-let result = Math.pow(2,5);
+let result = 2 ** 5;
 alert(result);
 
 //task 6
@@ -40,8 +40,8 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num += 1;
-num -= 1;
+num++;
+num--;
 alert(num);
 
 //task 8
@@ -61,7 +61,7 @@ const user = {
 
 //9.1
 
-user['city of residence'];
+user['city of residence'] = 'Detroit';
 
 //9.2
 
@@ -78,6 +78,5 @@ let info = prompt("Что вы хотите узнать о пользовате
 alert(user[info]);
 
 //task 10
-
-userName = prompt("Как вас зовут?");
-alert("Привет " + userName + "!");
+let userName = prompt("Как вас зовут?");
+alert(`Привет, ${userName}!`);
